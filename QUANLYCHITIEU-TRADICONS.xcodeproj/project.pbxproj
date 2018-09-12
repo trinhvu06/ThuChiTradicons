@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		892D93C52148BBB300451E79 /* mapstogpx20180912_031131.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 892D93C42148BBB300451E79 /* mapstogpx20180912_031131.gpx */; };
+		892D93C72148C8ED00451E79 /* mapstogpx20180912_040843.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 892D93C62148C8ED00451E79 /* mapstogpx20180912_040843.gpx */; };
+		892D93C92148C92900451E79 /* mapstogpx20180912_040946.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 892D93C82148C92900451E79 /* mapstogpx20180912_040946.gpx */; };
+		89431AF021438B83004557BA /* UIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89431AEF21438B83004557BA /* UIManager.swift */; };
+		89431AF321438C04004557BA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89431AF221438C04004557BA /* MainTabBarController.swift */; };
+		89431AF921438DA8004557BA /* navigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89431AF821438DA8004557BA /* navigationViewController.swift */; };
+		89431AFD2143935D004557BA /* UesrManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89431AFC2143935D004557BA /* UesrManager.swift */; };
+		89431AFF2144D953004557BA /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89431AFE2144D953004557BA /* HistoryViewController.swift */; };
+		89431B032144DBE9004557BA /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89431B022144DBE9004557BA /* AddViewController.swift */; };
+		89480B892143646D006BA654 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89480B882143646D006BA654 /* GoogleService-Info.plist */; };
+		89480B8B214371D6006BA654 /* MBProGessHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89480B8A214371D6006BA654 /* MBProGessHub.swift */; };
+		89480B8D214373DE006BA654 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89480B8C214373DE006BA654 /* String+Extension.swift */; };
+		89480B8F21437449006BA654 /* FIRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89480B8E21437449006BA654 /* FIRManager.swift */; };
+		89C93099214617B400332045 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C93098214617B400332045 /* MainViewController.swift */; };
+		89C9309B21467F5C00332045 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C9309A21467F5C00332045 /* MapViewController.swift */; };
+		89C9309D21468CE100332045 /* accCountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C9309C21468CE100332045 /* accCountViewController.swift */; };
+		89C9309F2146D77A00332045 /* CostManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C9309E2146D77A00332045 /* CostManager.swift */; };
+		89C930A22147902A00332045 /* CostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C930A12147902A00332045 /* CostTableViewCell.swift */; };
+		89DF6354213E7FB0008CC120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF6353213E7FB0008CC120 /* AppDelegate.swift */; };
+		89DF6359213E7FB0008CC120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DF6357213E7FB0008CC120 /* Main.storyboard */; };
+		89DF635B213E7FB3008CC120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DF635A213E7FB3008CC120 /* Assets.xcassets */; };
+		89DF635E213E7FB3008CC120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DF635C213E7FB3008CC120 /* LaunchScreen.storyboard */; };
+		89DF6366213E87AE008CC120 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF6365213E87AE008CC120 /* LoginViewController.swift */; };
+		89DF6368213E8BD9008CC120 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF6367213E8BD9008CC120 /* SignUpViewController.swift */; };
+		EA72BA08FC6156F31DBBF6C4 /* Pods_QUANLYCHITIEU_TRADICONS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8BD86785DC98454A97B6124 /* Pods_QUANLYCHITIEU_TRADICONS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81BB8A8C9DB4D44BCD592B3C /* Pods-QUANLYCHITIEU-TRADICONS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QUANLYCHITIEU-TRADICONS.release.xcconfig"; path = "Pods/Target Support Files/Pods-QUANLYCHITIEU-TRADICONS/Pods-QUANLYCHITIEU-TRADICONS.release.xcconfig"; sourceTree = "<group>"; };
+		892D93C42148BBB300451E79 /* mapstogpx20180912_031131.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mapstogpx20180912_031131.gpx; sourceTree = "<group>"; };
+		892D93C62148C8ED00451E79 /* mapstogpx20180912_040843.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mapstogpx20180912_040843.gpx; sourceTree = "<group>"; };
+		892D93C82148C92900451E79 /* mapstogpx20180912_040946.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mapstogpx20180912_040946.gpx; sourceTree = "<group>"; };
+		89431AEF21438B83004557BA /* UIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIManager.swift; sourceTree = "<group>"; };
+		89431AF221438C04004557BA /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		89431AF821438DA8004557BA /* navigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationViewController.swift; sourceTree = "<group>"; };
+		89431AFC2143935D004557BA /* UesrManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UesrManager.swift; sourceTree = "<group>"; };
+		89431AFE2144D953004557BA /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		89431B022144DBE9004557BA /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		89480B882143646D006BA654 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		89480B8A214371D6006BA654 /* MBProGessHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBProGessHub.swift; sourceTree = "<group>"; };
+		89480B8C214373DE006BA654 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		89480B8E21437449006BA654 /* FIRManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRManager.swift; sourceTree = "<group>"; };
+		89C93098214617B400332045 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		89C9309A21467F5C00332045 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		89C9309C21468CE100332045 /* accCountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accCountViewController.swift; sourceTree = "<group>"; };
+		89C9309E2146D77A00332045 /* CostManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostManager.swift; sourceTree = "<group>"; };
+		89C930A12147902A00332045 /* CostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostTableViewCell.swift; sourceTree = "<group>"; };
+		89DF6350213E7FB0008CC120 /* QUANLYCHITIEU-TRADICONS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QUANLYCHITIEU-TRADICONS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DF6353213E7FB0008CC120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89DF6358213E7FB0008CC120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89DF635A213E7FB3008CC120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89DF635D213E7FB3008CC120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89DF635F213E7FB3008CC120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DF6365213E87AE008CC120 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		89DF6367213E8BD9008CC120 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B7A0F7665D68317A576ED094 /* Pods-QUANLYCHITIEU-TRADICONS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QUANLYCHITIEU-TRADICONS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QUANLYCHITIEU-TRADICONS/Pods-QUANLYCHITIEU-TRADICONS.debug.xcconfig"; sourceTree = "<group>"; };
+		B8BD86785DC98454A97B6124 /* Pods_QUANLYCHITIEU_TRADICONS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QUANLYCHITIEU_TRADICONS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89DF634D213E7FB0008CC120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA72BA08FC6156F31DBBF6C4 /* Pods_QUANLYCHITIEU_TRADICONS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		891DB5522143799800ADEDCB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				89480B8E21437449006BA654 /* FIRManager.swift */,
+				89431AEF21438B83004557BA /* UIManager.swift */,
+				89431AFC2143935D004557BA /* UesrManager.swift */,
+				89C9309E2146D77A00332045 /* CostManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		89431AF121438BDD004557BA /* Authenticated */ = {
+			isa = PBXGroup;
+			children = (
+				89C93098214617B400332045 /* MainViewController.swift */,
+				89C9309A21467F5C00332045 /* MapViewController.swift */,
+				89431AF221438C04004557BA /* MainTabBarController.swift */,
+				89431AFE2144D953004557BA /* HistoryViewController.swift */,
+				89431B022144DBE9004557BA /* AddViewController.swift */,
+				89C9309C21468CE100332045 /* accCountViewController.swift */,
+			);
+			path = Authenticated;
+			sourceTree = "<group>";
+		};
+		89480B902143786B006BA654 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				89480B8C214373DE006BA654 /* String+Extension.swift */,
+				89480B8A214371D6006BA654 /* MBProGessHub.swift */,
+				89431AF821438DA8004557BA /* navigationViewController.swift */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		89480B912143789E006BA654 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89DF635A213E7FB3008CC120 /* Assets.xcassets */,
+				892D93C82148C92900451E79 /* mapstogpx20180912_040946.gpx */,
+				892D93C62148C8ED00451E79 /* mapstogpx20180912_040843.gpx */,
+				892D93C42148BBB300451E79 /* mapstogpx20180912_031131.gpx */,
+				89480B882143646D006BA654 /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		89480B92214378D2006BA654 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				89DF6357213E7FB0008CC120 /* Main.storyboard */,
+				89DF635C213E7FB3008CC120 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		89480B9321437900006BA654 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				89C930A021478FF800332045 /* Cell */,
+				89431AF121438BDD004557BA /* Authenticated */,
+				89480B9421437924006BA654 /* Authentication */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		89480B9421437924006BA654 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				89DF6367213E8BD9008CC120 /* SignUpViewController.swift */,
+				89DF6365213E87AE008CC120 /* LoginViewController.swift */,
+			);
+			name = Authentication;
+			sourceTree = "<group>";
+		};
+		89C930A021478FF800332045 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				89C930A12147902A00332045 /* CostTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		89DF6347213E7FB0008CC120 = {
+			isa = PBXGroup;
+			children = (
+				89DF6352213E7FB0008CC120 /* QUANLYCHITIEU-TRADICONS */,
+				89DF6351213E7FB0008CC120 /* Products */,
+				D650C4725E12515BA3276802 /* Pods */,
+				D28D3C2FF86AD8977CD08D11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89DF6351213E7FB0008CC120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89DF6350213E7FB0008CC120 /* QUANLYCHITIEU-TRADICONS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89DF6352213E7FB0008CC120 /* QUANLYCHITIEU-TRADICONS */ = {
+			isa = PBXGroup;
+			children = (
+				89DF6353213E7FB0008CC120 /* AppDelegate.swift */,
+				891DB5522143799800ADEDCB /* Manager */,
+				89480B9321437900006BA654 /* ViewControllers */,
+				89480B92214378D2006BA654 /* Storyboard */,
+				89480B912143789E006BA654 /* Resources */,
+				89480B902143786B006BA654 /* Foundation */,
+				89DF635F213E7FB3008CC120 /* Info.plist */,
+			);
+			path = "QUANLYCHITIEU-TRADICONS";
+			sourceTree = "<group>";
+		};
+		D28D3C2FF86AD8977CD08D11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8BD86785DC98454A97B6124 /* Pods_QUANLYCHITIEU_TRADICONS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D650C4725E12515BA3276802 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7A0F7665D68317A576ED094 /* Pods-QUANLYCHITIEU-TRADICONS.debug.xcconfig */,
+				81BB8A8C9DB4D44BCD592B3C /* Pods-QUANLYCHITIEU-TRADICONS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89DF634F213E7FB0008CC120 /* QUANLYCHITIEU-TRADICONS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DF6362213E7FB3008CC120 /* Build configuration list for PBXNativeTarget "QUANLYCHITIEU-TRADICONS" */;
+			buildPhases = (
+				3FE649AA2270636B085B38BE /* [CP] Check Pods Manifest.lock */,
+				89DF634C213E7FB0008CC120 /* Sources */,
+				89DF634D213E7FB0008CC120 /* Frameworks */,
+				89DF634E213E7FB0008CC120 /* Resources */,
+				76E8F61FA1F81F92FBAB38CF /* [CP] Embed Pods Frameworks */,
+				AE759E97A76A1A1710F4C3B1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QUANLYCHITIEU-TRADICONS";
+			productName = "QUANLYCHITIEU-TRADICONS";
+			productReference = 89DF6350213E7FB0008CC120 /* QUANLYCHITIEU-TRADICONS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89DF6348213E7FB0008CC120 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = TRUONGVU;
+				TargetAttributes = {
+					89DF634F213E7FB0008CC120 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 89DF634B213E7FB0008CC120 /* Build configuration list for PBXProject "QUANLYCHITIEU-TRADICONS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89DF6347213E7FB0008CC120;
+			productRefGroup = 89DF6351213E7FB0008CC120 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89DF634F213E7FB0008CC120 /* QUANLYCHITIEU-TRADICONS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89DF634E213E7FB0008CC120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892D93C92148C92900451E79 /* mapstogpx20180912_040946.gpx in Resources */,
+				89DF635E213E7FB3008CC120 /* LaunchScreen.storyboard in Resources */,
+				892D93C52148BBB300451E79 /* mapstogpx20180912_031131.gpx in Resources */,
+				89DF635B213E7FB3008CC120 /* Assets.xcassets in Resources */,
+				892D93C72148C8ED00451E79 /* mapstogpx20180912_040843.gpx in Resources */,
+				89DF6359213E7FB0008CC120 /* Main.storyboard in Resources */,
+				89480B892143646D006BA654 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FE649AA2270636B085B38BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QUANLYCHITIEU-TRADICONS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76E8F61FA1F81F92FBAB38CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QUANLYCHITIEU-TRADICONS/Pods-QUANLYCHITIEU-TRADICONS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QUANLYCHITIEU-TRADICONS/Pods-QUANLYCHITIEU-TRADICONS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE759E97A76A1A1710F4C3B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QUANLYCHITIEU-TRADICONS/Pods-QUANLYCHITIEU-TRADICONS-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QUANLYCHITIEU-TRADICONS/Pods-QUANLYCHITIEU-TRADICONS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89DF634C213E7FB0008CC120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C9309F2146D77A00332045 /* CostManager.swift in Sources */,
+				89431AFD2143935D004557BA /* UesrManager.swift in Sources */,
+				89C93099214617B400332045 /* MainViewController.swift in Sources */,
+				89431AF021438B83004557BA /* UIManager.swift in Sources */,
+				89431B032144DBE9004557BA /* AddViewController.swift in Sources */,
+				89DF6368213E8BD9008CC120 /* SignUpViewController.swift in Sources */,
+				89431AF321438C04004557BA /* MainTabBarController.swift in Sources */,
+				89C930A22147902A00332045 /* CostTableViewCell.swift in Sources */,
+				89480B8F21437449006BA654 /* FIRManager.swift in Sources */,
+				89431AFF2144D953004557BA /* HistoryViewController.swift in Sources */,
+				89DF6366213E87AE008CC120 /* LoginViewController.swift in Sources */,
+				89480B8B214371D6006BA654 /* MBProGessHub.swift in Sources */,
+				89431AF921438DA8004557BA /* navigationViewController.swift in Sources */,
+				89480B8D214373DE006BA654 /* String+Extension.swift in Sources */,
+				89C9309D21468CE100332045 /* accCountViewController.swift in Sources */,
+				89DF6354213E7FB0008CC120 /* AppDelegate.swift in Sources */,
+				89C9309B21467F5C00332045 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89DF6357213E7FB0008CC120 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89DF6358213E7FB0008CC120 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89DF635C213E7FB3008CC120 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89DF635D213E7FB3008CC120 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89DF6360213E7FB3008CC120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89DF6361213E7FB3008CC120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89DF6363213E7FB3008CC120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A0F7665D68317A576ED094 /* Pods-QUANLYCHITIEU-TRADICONS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QUANLYCHITIEU-TRADICONS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TRUONGVU.QUANLYCHITIEU-TRADICONS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89DF6364213E7FB3008CC120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81BB8A8C9DB4D44BCD592B3C /* Pods-QUANLYCHITIEU-TRADICONS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QUANLYCHITIEU-TRADICONS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TRUONGVU.QUANLYCHITIEU-TRADICONS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89DF634B213E7FB0008CC120 /* Build configuration list for PBXProject "QUANLYCHITIEU-TRADICONS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DF6360213E7FB3008CC120 /* Debug */,
+				89DF6361213E7FB3008CC120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DF6362213E7FB3008CC120 /* Build configuration list for PBXNativeTarget "QUANLYCHITIEU-TRADICONS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DF6363213E7FB3008CC120 /* Debug */,
+				89DF6364213E7FB3008CC120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89DF6348213E7FB0008CC120 /* Project object */;
+}
